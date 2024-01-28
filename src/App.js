@@ -37,6 +37,7 @@ function App() {
   ];
   return (
     <div className="App">
+      <h1>My Favorite Movies</h1>
       {movies.map((v) => {
         return (
           <Faves

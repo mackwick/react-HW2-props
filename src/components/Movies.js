@@ -4,7 +4,7 @@ const Faves = (props) => {
   return (
     <div className="faves">
       <img src={props.image} height={300} />
-      <h1>{props.name}</h1>
+      <h2>{props.name}</h2>
       <span>
         Released: {props.year} | Rated: {props.rating}
       </span>
