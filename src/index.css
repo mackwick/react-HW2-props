@@ -5,6 +5,8 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: rosybrown;
+  color: darkslategray;
 }
 
 code {
@@ -19,9 +21,9 @@ code {
   align-items: center;
 }
 
-.faves {
+.movie {
   margin: 20px 0;
-  border: 1px solid gold;
+  border: 1px solid ghostwhite;
   border-radius: 10px;
   width: 500px;
   padding: 10px 0;

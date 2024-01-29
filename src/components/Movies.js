@@ -1,8 +1,8 @@
 // the component function
-const Faves = (props) => {
+const Movie = (props) => {
   //The Components Returned JSX
   return (
-    <div className="faves">
+    <div className="movie">
       <img src={props.image} height={300} />
       <h2>{props.name}</h2>
       <span>
@@ -13,4 +13,4 @@ const Faves = (props) => {
 };
 
 // export the component
-export default Faves;
+export default Movie;
